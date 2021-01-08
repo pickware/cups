@@ -248,6 +248,7 @@ static const _ipp_option_t ipp_options[] =
   { 0, "output-bin",		IPP_TAG_KEYWORD,	IPP_TAG_JOB,
 							IPP_TAG_DOCUMENT },
   { 0, "output-bin-default",	IPP_TAG_KEYWORD,	IPP_TAG_PRINTER },
+  { 0, "output-mode",       IPP_TAG_KEYWORD, IPP_TAG_JOB, IPP_TAG_DOCUMENT },
   { 1, "overrides",		IPP_TAG_BEGIN_COLLECTION, IPP_TAG_JOB,
 							IPP_TAG_DOCUMENT },
   { 0, "page-bottom",		IPP_TAG_INTEGER,	IPP_TAG_JOB },
